@@ -1,5 +1,5 @@
 {% set name = "pytest-env" %}
-{% set version = "1.8.4" %}
+{% set version = "1.8.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 1054caabdbcc6d6ef1b06b010413f8bd482f7ea19487b27cd61e3385f5262bc1
+  sha256: 992c37efdc1bde2f0783975080ac4cdcea85f36df9d6fe3a835edd01a7e06584
 
 build:
   number: 0
